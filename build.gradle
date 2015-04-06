@@ -2,14 +2,14 @@ if (!JavaVersion.current().java8Compatible) {
   throw new IllegalStateException("Must be built with Java 8 or higher")
 }
 ext {
-  ratpackVersion = '0.9.9'
+  ratpackVersion = '0.9.15'
   useLocalRatpackRepo = ratpackVersion.endsWith('-SNAPSHOT')
   springBootVersion = '1.1.7.RELEASE'
   springVersion = '4.0.7.RELEASE'
 }
 
 buildscript {
-  def ratpackVersion = '0.9.9'
+  def ratpackVersion = '0.9.15'
   def useLocalRatpackRepo = ratpackVersion.endsWith('-SNAPSHOT')
   repositories {
     if(useLocalRatpackRepo) 
