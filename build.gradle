@@ -4,7 +4,7 @@ if (!JavaVersion.current().java8Compatible) {
 ext {
   ratpackVersion = '0.9.15'
   useLocalRatpackRepo = ratpackVersion.endsWith('-SNAPSHOT')
-  springBootVersion = '1.1.7.RELEASE'
+  springBootVersion = '1.2.3.RELEASE'
   springVersion = '4.0.7.RELEASE'
 }
 
